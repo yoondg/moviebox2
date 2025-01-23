@@ -1,0 +1,88 @@
+.movie-detail-page {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--neutral-white);
+}
+
+.movie-detail-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.movie-details {
+  text-align: left; /* 텍스트 왼쪽 정렬 */
+  margin-top: 1rem;
+  line-height: 1.8; /* 항목 간 간격 추가 */
+}
+
+.detail-label {
+  font-weight: bold;
+  color: var(--primary-light);
+  margin-bottom: 0.3rem;
+}
+
+.detail-value {
+  font-size: 1.1rem;
+  color: var(--neutral-white);
+  margin-bottom: 1rem;
+}
+.movie-detail-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* 텍스트 스타일 */
+.movie-title {
+  
+}
+
+.movie-tagline {
+  font-size: 1.5rem;
+  color: #fff !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.movie-overview {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--neutral-light-grey);
+}
+
+/* 출연진 카드 */
+.cast-card {
+  background-color: rgba(31, 41, 55, 0.9);
+  border: none;
+  color: var(--neutral-light-grey);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.cast-card:hover {
+  transform: scale(1.05); 
+}
+
+.cast-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.cast-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-light);
+  margin-top: 5px;
+}
+
+.cast-character {
+  font-size: 0.9rem;
+  color: var(--neutral-grey);
+}

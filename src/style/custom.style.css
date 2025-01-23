@@ -1,0 +1,158 @@
+/* Google Fonts 임포트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 기본 폰트 설정 */
+body {
+  font-family: "Poppins", "Noto Sans KR", sans-serif;
+}
+
+/* 색상 변수 설정 */
+:root {
+  --primary-color: #7b61ff; /* Primary */
+  --primary-dark: #4b33a2;
+  --primary-light: #d9c9ff;
+
+  --secondary-color: #40a9ff; /* Secondary */
+  --secondary-dark: #1e5a80;
+  --secondary-light: #bfe5ff;
+
+  --tertiary-color: #ab6bff; /* Tertiary */
+  --tertiary-dark: #6e3dbb;
+  --tertiary-light: #e6ccff;
+
+  --success-color: #34d399; /* Success */
+  --success-dark: #115e59;
+  --success-light: #affdd4;
+
+  --error-color: #f87171; /* Error */
+  --error-dark: #7a1f1f;
+  --error-light: #ffcdcd;
+
+  --warning-color: #fbbf24; /* Warning */
+  --warning-dark: #9a6400;
+  --warning-light: #ffedcc;
+
+  --neutral-grey: #9ca3af; /* Neutral Grey */
+  --neutral-light-grey: #f3f4f6;
+  --neutral-dark-grey: #1f2937;
+
+  --neutral-black: #0f172a; /* Black */
+  --neutral-white: #ffffff; /* White */
+}
+
+/* 링크 스타일 */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+
+body{
+  background-color: #0f172a;
+  color:#fff;
+}
+/* 텍스트 스타일 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", "Noto Sans KR", sans-serif;
+  line-height: 1.6;
+}
+
+:lang(ko) h1, :lang(ko) h2, :lang(ko) h3, :lang(ko) h4, :lang(ko) h5, :lang(ko) h6 {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+:lang(ko) p {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.text-primary {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.text-tertiary {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--tertiary-color);
+}
+
+.text-success {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--success-color);
+}
+
+.text-error {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--error-color);
+}
+
+.text-warning {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--warning-color);
+}
+
+.text-neutral {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: normal;
+  color: var(--neutral-grey);
+}
+
+/* 타이틀 스타일 */
+.title-large {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.title-medium {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.title-small {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--tertiary-color);
+}
+
+/* 인용구 스타일 */
+blockquote {
+  font-family: "Noto Sans KR", serif;
+  font-style: italic;
+  color: var(--neutral-grey);
+  padding: 1rem;
+  border-left: 4px solid var(--primary-color);
+  background-color: var(--neutral-light-grey);
+}
+
+/* 버튼 텍스트 스타일 */
+.btn-primary-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: var(--neutral-white);
+}
+
+.btn-secondary-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: var(--neutral-white);
+}

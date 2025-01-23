@@ -1,0 +1,72 @@
+.movie-detail-page {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--neutral-white);
+}
+
+.movie-detail-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.movie-detail-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* 텍스트 스타일 */
+.movie-title {
+  
+  font-weight: bold;
+  color: #fff;
+}
+
+.movie-tagline {
+  font-size: 1.5rem;
+  color: #ccc;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.movie-overview {
+  font-size: 1.1rem;
+  color: var(--neutral-light-grey);
+}
+
+/* 출연진 카드 */
+.cast-card {
+  background-color: rgba(31, 41, 55, 0.9);
+  border: none;
+  color: var(--neutral-light-grey);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.cast-card:hover {
+  transform: scale(1.05);
+}
+
+.cast-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.cast-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-light);
+  margin-top: 5px;
+}
+
+.cast-character {
+  font-size: 0.9rem;
+  color: var(--neutral-grey);
+}
