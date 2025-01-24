@@ -9,7 +9,7 @@
 ---
 
 ## 🌐 데모 바로가기  
-👉 [MovieBox 데모](https://your-demo-link.com)  
+👉 [MovieBox 데모](https://yoondgmoviebox2.netlify.app/)  
 
 ### **사용 예제**  
 - 🔍 **영화 검색**: 검색창에 "Inception"을 입력해 보세요.  
