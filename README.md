@@ -40,7 +40,7 @@ MovieBox는 TMDB API를 기반으로 영화와 TV 프로그램 정보를 제공�
 
 | 홈 화면 | 디테일 페이지 | TV 프로그램 |
 |---------|---------------|-------------|
-| ![홈 화면](https://github.com/yoondg/moviebox2/blob/main/screencapture-yoondgmoviebox2-netlify-app-2025-01-24-17_36_04.png) | ![디테일 페이지](https://github.com/yoondg/moviebox2/blob/main/screencapture-yoondgmoviebox2-netlify-app-movies-939243-2025-01-24-17_36_29.png)) | ![TV 프로그램](https://github.com/yoondg/moviebox2/blob/main/screencapture-yoondgmoviebox2-netlify-app-tv-93405-2025-01-24-17_37_06.png) 
+| ![홈 화면](https://github.com/yoondg/moviebox2/blob/main/screencapture-yoondgmoviebox2-netlify-app-2025-01-24-17_36_04.png) | ![디테일 페이지](https://github.com/yoondg/moviebox2/blob/main/screencapture-yoondgmoviebox2-netlify-app-movies-939243-2025-01-24-17_36_29.png) | ![TV 프로그램](https://github.com/yoondg/moviebox2/blob/main/screencapture-yoondgmoviebox2-netlify-app-tv-93405-2025-01-24-17_37_06.png) 
 
 ---
 
