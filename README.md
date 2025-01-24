@@ -1,6 +1,6 @@
 # 🎬 MovieBox - 영화와 TV 프로그램 탐색기 🍿
 
-![MovieBox 로고](./assets/moviebox-logo.png)
+![MovieBox 로고](https://github.com/yoondg/moviebox2/blob/main/logo.png)
 
 **MovieBox**는 영화와 TV 프로그램 정보를 탐색할 수 있는 간단한 웹 애플리케이션입니다.  
 이 프로젝트는 React와 API 통신을 활용한 데이터 중심의 웹 애플리케이션 개발 경험을 쌓기 위해 제작되었습니다.  
